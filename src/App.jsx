@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import Routes from './components/routes.jsx';
+import Routes from './components/Routes.jsx';
 import NavBar from './components/NavBar';
 import JoblyApi from './api.js';
 import useLocalStorage from './hooks/useLocalStorage.jsx';
