@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = (import.meta.env.DEV === true) ? 'http://localhost:1001' : import.meta.env.VITE_BASE_URL;
+const BASE_URL = (import.meta.env.DEV === true) ? 'http://localhost:1001' : import.meta.env.VITE_BASE_URL;
 
 /** API Class.
  *
