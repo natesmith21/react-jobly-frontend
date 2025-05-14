@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
-const BASE_URL = "http://localhost:3001";
+const API_URL = (import.meta.env.DEV === true) ? 'http://localhost:1001' : import.meta.env.VITE_BASE_URL;
 
 /** API Class.
  *
