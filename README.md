@@ -1,12 +1,64 @@
-# React + Vite
+<a id="readme-top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-Currently, two official plugins are available:
+<h3 align="center">Jobly</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    This repo contins the react frontend for the Jobly assignment I completed during my Certificate course. Jobly allows users to find, search for, and apply to jobs. 
+    <br />
+    <a href="https://github.com/natesmith21/react-jobly-frontend/tree/main"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+</div>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This is an assingment I completed towards the end of my Software Engineering Certificate. I have struggled a bit with deploying this project.
+
+Currently the App has several simple features: 
+
+* View + search Companies and Jobs
+* Create a User Account to 'apply' to jobs 
+
+This repo only contains the front end. You can see the backend <a href="https://github.com/natesmith21/react-jobly-backend/tree/main
+">here</a>
+
+This is a very simple app and I know it has a lot of room for improvement. This isn't a project I plan to put more work into, because it isn't very useful with fake information. That said, a few notable improvements this app needs are: 
+
+* Deployment Issues -- This issue will be addressed. 
+* The 'Register' page is buried and not easy to access as a new user
+* It's UI is ugly
+* there is no real application attached to the 'apply' button - it just marks a yes/no in the db
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* Node.js
+* Express.js --> see the <a href="https://github.com/natesmith21/react-jobly-backend/tree/main">backend here</a> 
+* React.js
+* Vite
+* ReactStrap
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
